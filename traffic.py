@@ -13,7 +13,7 @@ log = logging.getLogger(__name__)
 fake = Factory.create()
 
 
-url = "http://52.53.160.113/signup/"
+url = ""
 
 def parse_args():
     #defining and parsing arguments from the command line
