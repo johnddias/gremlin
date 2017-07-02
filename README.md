@@ -10,4 +10,7 @@ Create a virtual environment (or not)
 Install requirements
   pip install -f requirements.txt
   
-Modify the URL in the script before running.
+Usage: python traffic.py -u1 "http://52.53.160.113/signup/" -u2 "http://54.219.132.182/signup/"
+
+Only one url needed
+
