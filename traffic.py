@@ -3,7 +3,6 @@
 from faker import Factory
 import logging
 import requests
-from time import sleep
 import sys
 import os
 import argparse
@@ -70,7 +69,7 @@ def senddata(url):
 def main():
     args = parse_args()
     if check_args(args):
-      if args.url1: 
+      if args.url1:
         url1=args.url1
         senddata(url1)
 
@@ -85,4 +84,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
